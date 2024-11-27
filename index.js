@@ -16,7 +16,7 @@ const FRONTEND_URL = 'http://localhost:5173';
 
 app.use(
   cors({
-    origin: "https://merry-kitsune-155d0c.netlify.app", // Specify the exact frontend URL
+    origin: "*", // Specify the exact frontend URL
     credentials: true, // Allow credentials (cookies) to be sent
   })
 );
